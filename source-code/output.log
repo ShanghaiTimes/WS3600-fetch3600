@@ -1,0 +1,2514 @@
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:103:15: error: conflicting types for 'WAIT_TYPE'
+ typedef ULONG WAIT_TYPE;
+               ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:600:3: note: previous declaration of 'WAIT_TYPE' was here
+ } WAIT_TYPE;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:136:15: error: conflicting types for 'KAFFINITY'
+ typedef ULONG KAFFINITY, *PKAFFINITY;
+               ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:134:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\basetsd.h:195:39: note: previous declaration of 'KAFFINITY' was here
+   __MINGW_EXTENSION typedef ULONG_PTR KAFFINITY;
+                                       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:136:27: error: conflicting types for 'PKAFFINITY'
+ typedef ULONG KAFFINITY, *PKAFFINITY;
+                           ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:134:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\basetsd.h:196:40: note: previous declaration of 'PKAFFINITY' was here
+   __MINGW_EXTENSION typedef KAFFINITY *PKAFFINITY;
+                                        ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:922:14: error: nested redefinition of 'enum _TIMER_TYPE'
+ typedef enum _TIMER_TYPE {
+              ^
+winddk.h:922:14: error: redeclaration of 'enum _TIMER_TYPE'
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:592:14: note: originally defined here
+ typedef enum _TIMER_TYPE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:923:3: error: redeclaration of enumerator 'NotificationTimer'
+   NotificationTimer,
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:593:3: note: previous definition of 'NotificationTimer' was here
+   NotificationTimer,
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:924:3: error: redeclaration of enumerator 'SynchronizationTimer'
+   SynchronizationTimer
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:594:3: note: previous definition of 'SynchronizationTimer' was here
+   SynchronizationTimer
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1048:16: error: redefinition of 'struct _DRIVE_LAYOUT_INFORMATION_MBR'
+ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:645:16: note: originally defined here
+ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1050:3: error: conflicting types for 'DRIVE_LAYOUT_INFORMATION_MBR'
+ } DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:647:3: note: previous declaration of 'DRIVE_LAYOUT_INFORMATION_MBR' was here
+ } DRIVE_LAYOUT_INFORMATION_MBR,*PDRIVE_LAYOUT_INFORMATION_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1050:34: error: conflicting types for 'PDRIVE_LAYOUT_INFORMATION_MBR'
+ } DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR;
+                                  ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:647:33: note: previous declaration of 'PDRIVE_LAYOUT_INFORMATION_MBR' was here
+ } DRIVE_LAYOUT_INFORMATION_MBR,*PDRIVE_LAYOUT_INFORMATION_MBR;
+                                 ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1052:16: error: redefinition of 'struct _DRIVE_LAYOUT_INFORMATION_GPT'
+ typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:638:16: note: originally defined here
+ typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1057:3: error: conflicting types for 'DRIVE_LAYOUT_INFORMATION_GPT'
+ } DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:643:3: note: previous declaration of 'DRIVE_LAYOUT_INFORMATION_GPT' was here
+ } DRIVE_LAYOUT_INFORMATION_GPT,*PDRIVE_LAYOUT_INFORMATION_GPT;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1057:34: error: conflicting types for 'PDRIVE_LAYOUT_INFORMATION_GPT'
+ } DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;
+                                  ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:643:33: note: previous declaration of 'PDRIVE_LAYOUT_INFORMATION_GPT' was here
+ } DRIVE_LAYOUT_INFORMATION_GPT,*PDRIVE_LAYOUT_INFORMATION_GPT;
+                                 ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1059:16: error: redefinition of 'struct _PARTITION_INFORMATION_MBR'
+ typedef struct _PARTITION_INFORMATION_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:587:16: note: originally defined here
+ typedef struct _PARTITION_INFORMATION_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1064:3: error: conflicting types for 'PARTITION_INFORMATION_MBR'
+ } PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:592:3: note: previous declaration of 'PARTITION_INFORMATION_MBR' was here
+ } PARTITION_INFORMATION_MBR,*PPARTITION_INFORMATION_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1064:31: error: conflicting types for 'PPARTITION_INFORMATION_MBR'
+ } PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR;
+                               ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:592:30: note: previous declaration of 'PPARTITION_INFORMATION_MBR' was here
+ } PARTITION_INFORMATION_MBR,*PPARTITION_INFORMATION_MBR;
+                              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1406:16: error: redefinition of 'struct CM_Power_Data_s'
+ typedef struct CM_Power_Data_s {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4679:20: note: originally defined here
+     typedef struct CM_Power_Data_s {
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1414:3: error: conflicting types for 'CM_POWER_DATA'
+ } CM_POWER_DATA, *PCM_POWER_DATA;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4688:7: note: previous declaration of 'CM_POWER_DATA' was here
+     } CM_POWER_DATA,*PCM_POWER_DATA;
+       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:1414:19: error: conflicting types for 'PCM_POWER_DATA'
+ } CM_POWER_DATA, *PCM_POWER_DATA;
+                   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4688:22: note: previous declaration of 'PCM_POWER_DATA' was here
+     } CM_POWER_DATA,*PCM_POWER_DATA;
+                      ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:2950:3: error: conflicting types for 'RTL_OSVERSIONINFOW'
+ } RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7177:57: note: previous declaration of 'RTL_OSVERSIONINFOW' was here
+     } OSVERSIONINFOW,*POSVERSIONINFOW,*LPOSVERSIONINFOW,RTL_OSVERSIONINFOW,*PRTL_OSVERSIONINFOW;
+                                                         ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:2950:24: error: conflicting types for 'PRTL_OSVERSIONINFOW'
+ } RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;
+                        ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7177:77: note: previous declaration of 'PRTL_OSVERSIONINFOW' was here
+     } OSVERSIONINFOW,*POSVERSIONINFOW,*LPOSVERSIONINFOW,RTL_OSVERSIONINFOW,*PRTL_OSVERSIONINFOW;
+                                                                             ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:2964:3: error: conflicting types for 'RTL_OSVERSIONINFOEXW'
+ } RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7209:63: note: previous declaration of 'RTL_OSVERSIONINFOEXW' was here
+     } OSVERSIONINFOEXW,*POSVERSIONINFOEXW,*LPOSVERSIONINFOEXW,RTL_OSVERSIONINFOEXW,*PRTL_OSVERSIONINFOEXW;
+                                                               ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:2964:26: error: conflicting types for 'PRTL_OSVERSIONINFOEXW'
+ } RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
+                          ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7209:85: note: previous declaration of 'PRTL_OSVERSIONINFOEXW' was here
+     } OSVERSIONINFOEXW,*POSVERSIONINFOEXW,*LPOSVERSIONINFOEXW,RTL_OSVERSIONINFOEXW,*PRTL_OSVERSIONINFOEXW;
+                                                                                     ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3116:14: error: nested redefinition of 'enum _EVENT_TYPE'
+ typedef enum _EVENT_TYPE {
+              ^
+winddk.h:3116:14: error: redeclaration of 'enum _EVENT_TYPE'
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:587:14: note: originally defined here
+ typedef enum _EVENT_TYPE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3117:3: error: redeclaration of enumerator 'NotificationEvent'
+   NotificationEvent,
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:588:3: note: previous definition of 'NotificationEvent' was here
+   NotificationEvent,
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3118:3: error: redeclaration of enumerator 'SynchronizationEvent'
+   SynchronizationEvent
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:589:3: note: previous definition of 'SynchronizationEvent' was here
+   SynchronizationEvent
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3554:14: error: nested redefinition of 'enum _PARTITION_STYLE'
+ typedef enum _PARTITION_STYLE {
+              ^
+winddk.h:3554:14: error: redeclaration of 'enum _PARTITION_STYLE'
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:569:14: note: originally defined here
+ typedef enum _PARTITION_STYLE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3555:3: error: redeclaration of enumerator 'PARTITION_STYLE_MBR'
+   PARTITION_STYLE_MBR,
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:570:3: note: previous definition of 'PARTITION_STYLE_MBR' was here
+   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3556:3: error: redeclaration of enumerator 'PARTITION_STYLE_GPT'
+   PARTITION_STYLE_GPT
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:570:23: note: previous definition of 'PARTITION_STYLE_GPT' was here
+   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
+                       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3559:16: error: redefinition of 'struct _CREATE_DISK_MBR'
+ typedef struct _CREATE_DISK_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:610:16: note: originally defined here
+ typedef struct _CREATE_DISK_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3561:3: error: conflicting types for 'CREATE_DISK_MBR'
+ } CREATE_DISK_MBR, *PCREATE_DISK_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:612:3: note: previous declaration of 'CREATE_DISK_MBR' was here
+ } CREATE_DISK_MBR,*PCREATE_DISK_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3561:21: error: conflicting types for 'PCREATE_DISK_MBR'
+ } CREATE_DISK_MBR, *PCREATE_DISK_MBR;
+                     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:612:20: note: previous declaration of 'PCREATE_DISK_MBR' was here
+ } CREATE_DISK_MBR,*PCREATE_DISK_MBR;
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3563:16: error: redefinition of 'struct _CREATE_DISK_GPT'
+ typedef struct _CREATE_DISK_GPT {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:605:16: note: originally defined here
+ typedef struct _CREATE_DISK_GPT {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3566:3: error: conflicting types for 'CREATE_DISK_GPT'
+ } CREATE_DISK_GPT, *PCREATE_DISK_GPT;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:608:3: note: previous declaration of 'CREATE_DISK_GPT' was here
+ } CREATE_DISK_GPT,*PCREATE_DISK_GPT;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3566:21: error: conflicting types for 'PCREATE_DISK_GPT'
+ } CREATE_DISK_GPT, *PCREATE_DISK_GPT;
+                     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:608:20: note: previous declaration of 'PCREATE_DISK_GPT' was here
+ } CREATE_DISK_GPT,*PCREATE_DISK_GPT;
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3568:16: error: redefinition of 'struct _CREATE_DISK'
+ typedef struct _CREATE_DISK {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:614:16: note: originally defined here
+ typedef struct _CREATE_DISK {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3574:3: error: conflicting types for 'CREATE_DISK'
+ } CREATE_DISK, *PCREATE_DISK;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:620:3: note: previous declaration of 'CREATE_DISK' was here
+ } CREATE_DISK,*PCREATE_DISK;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:3574:17: error: conflicting types for 'PCREATE_DISK'
+ } CREATE_DISK, *PCREATE_DISK;
+                 ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:620:16: note: previous declaration of 'PCREATE_DISK' was here
+ } CREATE_DISK,*PCREATE_DISK;
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winddk.h:7587:6: error: unknown type name 'PKFLOATING_SAVE'
+   IN PKFLOATING_SAVE  FloatSave);
+      ^
+winddk.h:7593:7: error: unknown type name 'PKFLOATING_SAVE'
+   OUT PKFLOATING_SAVE  FloatSave);
+       ^
+winddk.h:8736:6: error: unknown type name 'SECTION_INHERIT'
+   IN SECTION_INHERIT  InheritDisposition,
+      ^
+winddk.h:8751:6: error: unknown type name 'SECTION_INHERIT'
+   IN SECTION_INHERIT  InheritDisposition,
+      ^
+In file included from ntddk.h:85:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+winnt4.h:166:1: error: expected ',' or ';' before 'ExInterlockedDecrementLong'
+ ExInterlockedDecrementLong(
+ ^
+winnt4.h:181:1: error: expected ',' or ';' before 'ExInterlockedIncrementLong'
+ ExInterlockedIncrementLong(
+ ^
+In file included from win3600.h:9:0,
+                 from rw3600.h:11,
+                 from fetch3600.c:12:
+ntddser.h:375:2: error: expected declaration specifiers or '...' before '*' token
+ (*PSERENUM_READPORT)(
+  ^
+ntddser.h:379:2: error: expected declaration specifiers or '...' before '*' token
+ (*PSERENUM_WRITEPORT)(
+  ^
+ntddser.h:391:3: error: unknown type name 'PSERENUM_READPORT'
+   PSERENUM_READPORT  ReadAccessor;
+   ^
+ntddser.h:392:3: error: unknown type name 'PSERENUM_WRITEPORT'
+   PSERENUM_WRITEPORT  WriteAccessor;
+   ^
+fetch3600.c: In function 'main':
+fetch3600.c:66:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          temperature_indoor(data));
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:71:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sTimin %.1f\n", logline, tempfloat_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:72:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sTimax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:75:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:78:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:84:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          temperature_outdoor(data));
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:89:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sTomin %.1f\n", logline, tempfloat_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:90:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sTomax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:93:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:96:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:101:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          dewpoint(data) );
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:106:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sDPmin %.1f\n", logline, tempfloat_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:107:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sDPmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:110:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:113:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:119:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   humidity_indoor(data));
+   ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:124:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sRHimin %d\n", logline, tempint_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:125:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sRHimax %d\n", logline, tempint_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:128:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:131:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:136:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   humidity_outdoor(data));
+   ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:142:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sRHomin %d\n", logline, tempint_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:143:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sRHomax %d\n", logline, tempint_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:146:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:149:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:155:9: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+         wind_current(data, winddir));
+         ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:159:4: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+    winddir[2], winddir[3], winddir[4], winddir[5]);
+    ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:163:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          windchill(data));
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:168:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sWCmin %.1f\n", logline, tempfloat_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:169:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sWCmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:173:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:176:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:184:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sWSmin %.1f\n", logline, tempfloat_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:185:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sWSmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:189:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:192:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:198:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   rain_1h(data));
+   ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:201:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline,"%sR1hmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:204:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:210:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   rain_24h(data));
+   ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:212:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline,"%sR24hmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:215:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:220:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   rain_1w(data));
+   ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:222:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline,"%sR1wmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:225:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:230:3: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   rain_1m(data));
+   ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:232:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline,"%sR1mmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:235:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:241:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          rain_total(data));
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:247:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:253:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          rel_pressure(data));
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:258:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          abs_pressure(data));
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:266:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sRPmin %.1f\n", logline, tempfloat_min);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:267:2: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(logline, "%sRPmax %.1f\n", logline, tempfloat_max);
+  ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:271:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_min.month, time_min.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:274:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+          time_max.month, time_max.year);
+          ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+fetch3600.c:280:9: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+         sprintf(logline, "%sTendency %s\nForecast %s\n", logline, tendency, forecast);
+         ^
+In file included from rw3600.h:20:0,
+                 from fetch3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\stdio.h:379:15: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+   int __cdecl sprintf(char * __restrict__ _Dest,const char * __restrict__ _Format,...) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+               ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:103:15: error: conflicting types for 'WAIT_TYPE'
+ typedef ULONG WAIT_TYPE;
+               ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:600:3: note: previous declaration of 'WAIT_TYPE' was here
+ } WAIT_TYPE;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:136:15: error: conflicting types for 'KAFFINITY'
+ typedef ULONG KAFFINITY, *PKAFFINITY;
+               ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:134:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\basetsd.h:195:39: note: previous declaration of 'KAFFINITY' was here
+   __MINGW_EXTENSION typedef ULONG_PTR KAFFINITY;
+                                       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:136:27: error: conflicting types for 'PKAFFINITY'
+ typedef ULONG KAFFINITY, *PKAFFINITY;
+                           ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:134:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\basetsd.h:196:40: note: previous declaration of 'PKAFFINITY' was here
+   __MINGW_EXTENSION typedef KAFFINITY *PKAFFINITY;
+                                        ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:922:14: error: nested redefinition of 'enum _TIMER_TYPE'
+ typedef enum _TIMER_TYPE {
+              ^
+winddk.h:922:14: error: redeclaration of 'enum _TIMER_TYPE'
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:592:14: note: originally defined here
+ typedef enum _TIMER_TYPE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:923:3: error: redeclaration of enumerator 'NotificationTimer'
+   NotificationTimer,
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:593:3: note: previous definition of 'NotificationTimer' was here
+   NotificationTimer,
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:924:3: error: redeclaration of enumerator 'SynchronizationTimer'
+   SynchronizationTimer
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:594:3: note: previous definition of 'SynchronizationTimer' was here
+   SynchronizationTimer
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1048:16: error: redefinition of 'struct _DRIVE_LAYOUT_INFORMATION_MBR'
+ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:645:16: note: originally defined here
+ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1050:3: error: conflicting types for 'DRIVE_LAYOUT_INFORMATION_MBR'
+ } DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:647:3: note: previous declaration of 'DRIVE_LAYOUT_INFORMATION_MBR' was here
+ } DRIVE_LAYOUT_INFORMATION_MBR,*PDRIVE_LAYOUT_INFORMATION_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1050:34: error: conflicting types for 'PDRIVE_LAYOUT_INFORMATION_MBR'
+ } DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR;
+                                  ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:647:33: note: previous declaration of 'PDRIVE_LAYOUT_INFORMATION_MBR' was here
+ } DRIVE_LAYOUT_INFORMATION_MBR,*PDRIVE_LAYOUT_INFORMATION_MBR;
+                                 ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1052:16: error: redefinition of 'struct _DRIVE_LAYOUT_INFORMATION_GPT'
+ typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:638:16: note: originally defined here
+ typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1057:3: error: conflicting types for 'DRIVE_LAYOUT_INFORMATION_GPT'
+ } DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:643:3: note: previous declaration of 'DRIVE_LAYOUT_INFORMATION_GPT' was here
+ } DRIVE_LAYOUT_INFORMATION_GPT,*PDRIVE_LAYOUT_INFORMATION_GPT;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1057:34: error: conflicting types for 'PDRIVE_LAYOUT_INFORMATION_GPT'
+ } DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;
+                                  ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:643:33: note: previous declaration of 'PDRIVE_LAYOUT_INFORMATION_GPT' was here
+ } DRIVE_LAYOUT_INFORMATION_GPT,*PDRIVE_LAYOUT_INFORMATION_GPT;
+                                 ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1059:16: error: redefinition of 'struct _PARTITION_INFORMATION_MBR'
+ typedef struct _PARTITION_INFORMATION_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:587:16: note: originally defined here
+ typedef struct _PARTITION_INFORMATION_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1064:3: error: conflicting types for 'PARTITION_INFORMATION_MBR'
+ } PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:592:3: note: previous declaration of 'PARTITION_INFORMATION_MBR' was here
+ } PARTITION_INFORMATION_MBR,*PPARTITION_INFORMATION_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1064:31: error: conflicting types for 'PPARTITION_INFORMATION_MBR'
+ } PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR;
+                               ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:592:30: note: previous declaration of 'PPARTITION_INFORMATION_MBR' was here
+ } PARTITION_INFORMATION_MBR,*PPARTITION_INFORMATION_MBR;
+                              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1406:16: error: redefinition of 'struct CM_Power_Data_s'
+ typedef struct CM_Power_Data_s {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4679:20: note: originally defined here
+     typedef struct CM_Power_Data_s {
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1414:3: error: conflicting types for 'CM_POWER_DATA'
+ } CM_POWER_DATA, *PCM_POWER_DATA;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4688:7: note: previous declaration of 'CM_POWER_DATA' was here
+     } CM_POWER_DATA,*PCM_POWER_DATA;
+       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:1414:19: error: conflicting types for 'PCM_POWER_DATA'
+ } CM_POWER_DATA, *PCM_POWER_DATA;
+                   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4688:22: note: previous declaration of 'PCM_POWER_DATA' was here
+     } CM_POWER_DATA,*PCM_POWER_DATA;
+                      ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:2950:3: error: conflicting types for 'RTL_OSVERSIONINFOW'
+ } RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7177:57: note: previous declaration of 'RTL_OSVERSIONINFOW' was here
+     } OSVERSIONINFOW,*POSVERSIONINFOW,*LPOSVERSIONINFOW,RTL_OSVERSIONINFOW,*PRTL_OSVERSIONINFOW;
+                                                         ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:2950:24: error: conflicting types for 'PRTL_OSVERSIONINFOW'
+ } RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;
+                        ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7177:77: note: previous declaration of 'PRTL_OSVERSIONINFOW' was here
+     } OSVERSIONINFOW,*POSVERSIONINFOW,*LPOSVERSIONINFOW,RTL_OSVERSIONINFOW,*PRTL_OSVERSIONINFOW;
+                                                                             ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:2964:3: error: conflicting types for 'RTL_OSVERSIONINFOEXW'
+ } RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7209:63: note: previous declaration of 'RTL_OSVERSIONINFOEXW' was here
+     } OSVERSIONINFOEXW,*POSVERSIONINFOEXW,*LPOSVERSIONINFOEXW,RTL_OSVERSIONINFOEXW,*PRTL_OSVERSIONINFOEXW;
+                                                               ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:2964:26: error: conflicting types for 'PRTL_OSVERSIONINFOEXW'
+ } RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
+                          ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7209:85: note: previous declaration of 'PRTL_OSVERSIONINFOEXW' was here
+     } OSVERSIONINFOEXW,*POSVERSIONINFOEXW,*LPOSVERSIONINFOEXW,RTL_OSVERSIONINFOEXW,*PRTL_OSVERSIONINFOEXW;
+                                                                                     ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3116:14: error: nested redefinition of 'enum _EVENT_TYPE'
+ typedef enum _EVENT_TYPE {
+              ^
+winddk.h:3116:14: error: redeclaration of 'enum _EVENT_TYPE'
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:587:14: note: originally defined here
+ typedef enum _EVENT_TYPE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3117:3: error: redeclaration of enumerator 'NotificationEvent'
+   NotificationEvent,
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:588:3: note: previous definition of 'NotificationEvent' was here
+   NotificationEvent,
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3118:3: error: redeclaration of enumerator 'SynchronizationEvent'
+   SynchronizationEvent
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:589:3: note: previous definition of 'SynchronizationEvent' was here
+   SynchronizationEvent
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3554:14: error: nested redefinition of 'enum _PARTITION_STYLE'
+ typedef enum _PARTITION_STYLE {
+              ^
+winddk.h:3554:14: error: redeclaration of 'enum _PARTITION_STYLE'
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:569:14: note: originally defined here
+ typedef enum _PARTITION_STYLE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3555:3: error: redeclaration of enumerator 'PARTITION_STYLE_MBR'
+   PARTITION_STYLE_MBR,
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:570:3: note: previous definition of 'PARTITION_STYLE_MBR' was here
+   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3556:3: error: redeclaration of enumerator 'PARTITION_STYLE_GPT'
+   PARTITION_STYLE_GPT
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:570:23: note: previous definition of 'PARTITION_STYLE_GPT' was here
+   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
+                       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3559:16: error: redefinition of 'struct _CREATE_DISK_MBR'
+ typedef struct _CREATE_DISK_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:610:16: note: originally defined here
+ typedef struct _CREATE_DISK_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3561:3: error: conflicting types for 'CREATE_DISK_MBR'
+ } CREATE_DISK_MBR, *PCREATE_DISK_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:612:3: note: previous declaration of 'CREATE_DISK_MBR' was here
+ } CREATE_DISK_MBR,*PCREATE_DISK_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3561:21: error: conflicting types for 'PCREATE_DISK_MBR'
+ } CREATE_DISK_MBR, *PCREATE_DISK_MBR;
+                     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:612:20: note: previous declaration of 'PCREATE_DISK_MBR' was here
+ } CREATE_DISK_MBR,*PCREATE_DISK_MBR;
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3563:16: error: redefinition of 'struct _CREATE_DISK_GPT'
+ typedef struct _CREATE_DISK_GPT {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:605:16: note: originally defined here
+ typedef struct _CREATE_DISK_GPT {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3566:3: error: conflicting types for 'CREATE_DISK_GPT'
+ } CREATE_DISK_GPT, *PCREATE_DISK_GPT;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:608:3: note: previous declaration of 'CREATE_DISK_GPT' was here
+ } CREATE_DISK_GPT,*PCREATE_DISK_GPT;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3566:21: error: conflicting types for 'PCREATE_DISK_GPT'
+ } CREATE_DISK_GPT, *PCREATE_DISK_GPT;
+                     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:608:20: note: previous declaration of 'PCREATE_DISK_GPT' was here
+ } CREATE_DISK_GPT,*PCREATE_DISK_GPT;
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3568:16: error: redefinition of 'struct _CREATE_DISK'
+ typedef struct _CREATE_DISK {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:614:16: note: originally defined here
+ typedef struct _CREATE_DISK {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3574:3: error: conflicting types for 'CREATE_DISK'
+ } CREATE_DISK, *PCREATE_DISK;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:620:3: note: previous declaration of 'CREATE_DISK' was here
+ } CREATE_DISK,*PCREATE_DISK;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:3574:17: error: conflicting types for 'PCREATE_DISK'
+ } CREATE_DISK, *PCREATE_DISK;
+                 ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:620:16: note: previous declaration of 'PCREATE_DISK' was here
+ } CREATE_DISK,*PCREATE_DISK;
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winddk.h:7587:6: error: unknown type name 'PKFLOATING_SAVE'
+   IN PKFLOATING_SAVE  FloatSave);
+      ^
+winddk.h:7593:7: error: unknown type name 'PKFLOATING_SAVE'
+   OUT PKFLOATING_SAVE  FloatSave);
+       ^
+winddk.h:8736:6: error: unknown type name 'SECTION_INHERIT'
+   IN SECTION_INHERIT  InheritDisposition,
+      ^
+winddk.h:8751:6: error: unknown type name 'SECTION_INHERIT'
+   IN SECTION_INHERIT  InheritDisposition,
+      ^
+In file included from ntddk.h:85:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+winnt4.h:166:1: error: expected ',' or ';' before 'ExInterlockedDecrementLong'
+ ExInterlockedDecrementLong(
+ ^
+winnt4.h:181:1: error: expected ',' or ';' before 'ExInterlockedIncrementLong'
+ ExInterlockedIncrementLong(
+ ^
+In file included from win3600.h:9:0,
+                 from rw3600.h:11,
+                 from rw3600.c:12:
+ntddser.h:375:2: error: expected declaration specifiers or '...' before '*' token
+ (*PSERENUM_READPORT)(
+  ^
+ntddser.h:379:2: error: expected declaration specifiers or '...' before '*' token
+ (*PSERENUM_WRITEPORT)(
+  ^
+ntddser.h:391:3: error: unknown type name 'PSERENUM_READPORT'
+   PSERENUM_READPORT  ReadAccessor;
+   ^
+ntddser.h:392:3: error: unknown type name 'PSERENUM_WRITEPORT'
+   PSERENUM_WRITEPORT  WriteAccessor;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:103:15: error: conflicting types for 'WAIT_TYPE'
+ typedef ULONG WAIT_TYPE;
+               ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:600:3: note: previous declaration of 'WAIT_TYPE' was here
+ } WAIT_TYPE;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:136:15: error: conflicting types for 'KAFFINITY'
+ typedef ULONG KAFFINITY, *PKAFFINITY;
+               ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:134:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\basetsd.h:195:39: note: previous declaration of 'KAFFINITY' was here
+   __MINGW_EXTENSION typedef ULONG_PTR KAFFINITY;
+                                       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:136:27: error: conflicting types for 'PKAFFINITY'
+ typedef ULONG KAFFINITY, *PKAFFINITY;
+                           ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:134:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\basetsd.h:196:40: note: previous declaration of 'PKAFFINITY' was here
+   __MINGW_EXTENSION typedef KAFFINITY *PKAFFINITY;
+                                        ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:922:14: error: nested redefinition of 'enum _TIMER_TYPE'
+ typedef enum _TIMER_TYPE {
+              ^
+winddk.h:922:14: error: redeclaration of 'enum _TIMER_TYPE'
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:592:14: note: originally defined here
+ typedef enum _TIMER_TYPE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:923:3: error: redeclaration of enumerator 'NotificationTimer'
+   NotificationTimer,
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:593:3: note: previous definition of 'NotificationTimer' was here
+   NotificationTimer,
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:924:3: error: redeclaration of enumerator 'SynchronizationTimer'
+   SynchronizationTimer
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:594:3: note: previous definition of 'SynchronizationTimer' was here
+   SynchronizationTimer
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1048:16: error: redefinition of 'struct _DRIVE_LAYOUT_INFORMATION_MBR'
+ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:645:16: note: originally defined here
+ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1050:3: error: conflicting types for 'DRIVE_LAYOUT_INFORMATION_MBR'
+ } DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:647:3: note: previous declaration of 'DRIVE_LAYOUT_INFORMATION_MBR' was here
+ } DRIVE_LAYOUT_INFORMATION_MBR,*PDRIVE_LAYOUT_INFORMATION_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1050:34: error: conflicting types for 'PDRIVE_LAYOUT_INFORMATION_MBR'
+ } DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR;
+                                  ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:647:33: note: previous declaration of 'PDRIVE_LAYOUT_INFORMATION_MBR' was here
+ } DRIVE_LAYOUT_INFORMATION_MBR,*PDRIVE_LAYOUT_INFORMATION_MBR;
+                                 ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1052:16: error: redefinition of 'struct _DRIVE_LAYOUT_INFORMATION_GPT'
+ typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:638:16: note: originally defined here
+ typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1057:3: error: conflicting types for 'DRIVE_LAYOUT_INFORMATION_GPT'
+ } DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:643:3: note: previous declaration of 'DRIVE_LAYOUT_INFORMATION_GPT' was here
+ } DRIVE_LAYOUT_INFORMATION_GPT,*PDRIVE_LAYOUT_INFORMATION_GPT;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1057:34: error: conflicting types for 'PDRIVE_LAYOUT_INFORMATION_GPT'
+ } DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;
+                                  ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:643:33: note: previous declaration of 'PDRIVE_LAYOUT_INFORMATION_GPT' was here
+ } DRIVE_LAYOUT_INFORMATION_GPT,*PDRIVE_LAYOUT_INFORMATION_GPT;
+                                 ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1059:16: error: redefinition of 'struct _PARTITION_INFORMATION_MBR'
+ typedef struct _PARTITION_INFORMATION_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:587:16: note: originally defined here
+ typedef struct _PARTITION_INFORMATION_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1064:3: error: conflicting types for 'PARTITION_INFORMATION_MBR'
+ } PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:592:3: note: previous declaration of 'PARTITION_INFORMATION_MBR' was here
+ } PARTITION_INFORMATION_MBR,*PPARTITION_INFORMATION_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1064:31: error: conflicting types for 'PPARTITION_INFORMATION_MBR'
+ } PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR;
+                               ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:592:30: note: previous declaration of 'PPARTITION_INFORMATION_MBR' was here
+ } PARTITION_INFORMATION_MBR,*PPARTITION_INFORMATION_MBR;
+                              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1406:16: error: redefinition of 'struct CM_Power_Data_s'
+ typedef struct CM_Power_Data_s {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4679:20: note: originally defined here
+     typedef struct CM_Power_Data_s {
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1414:3: error: conflicting types for 'CM_POWER_DATA'
+ } CM_POWER_DATA, *PCM_POWER_DATA;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4688:7: note: previous declaration of 'CM_POWER_DATA' was here
+     } CM_POWER_DATA,*PCM_POWER_DATA;
+       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:1414:19: error: conflicting types for 'PCM_POWER_DATA'
+ } CM_POWER_DATA, *PCM_POWER_DATA;
+                   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:4688:22: note: previous declaration of 'PCM_POWER_DATA' was here
+     } CM_POWER_DATA,*PCM_POWER_DATA;
+                      ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:2950:3: error: conflicting types for 'RTL_OSVERSIONINFOW'
+ } RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7177:57: note: previous declaration of 'RTL_OSVERSIONINFOW' was here
+     } OSVERSIONINFOW,*POSVERSIONINFOW,*LPOSVERSIONINFOW,RTL_OSVERSIONINFOW,*PRTL_OSVERSIONINFOW;
+                                                         ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:2950:24: error: conflicting types for 'PRTL_OSVERSIONINFOW'
+ } RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;
+                        ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7177:77: note: previous declaration of 'PRTL_OSVERSIONINFOW' was here
+     } OSVERSIONINFOW,*POSVERSIONINFOW,*LPOSVERSIONINFOW,RTL_OSVERSIONINFOW,*PRTL_OSVERSIONINFOW;
+                                                                             ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:2964:3: error: conflicting types for 'RTL_OSVERSIONINFOEXW'
+ } RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7209:63: note: previous declaration of 'RTL_OSVERSIONINFOEXW' was here
+     } OSVERSIONINFOEXW,*POSVERSIONINFOEXW,*LPOSVERSIONINFOEXW,RTL_OSVERSIONINFOEXW,*PRTL_OSVERSIONINFOEXW;
+                                                               ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:2964:26: error: conflicting types for 'PRTL_OSVERSIONINFOEXW'
+ } RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
+                          ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\minwindef.h:146:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windef.h:8,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:69,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winnt.h:7209:85: note: previous declaration of 'PRTL_OSVERSIONINFOEXW' was here
+     } OSVERSIONINFOEXW,*POSVERSIONINFOEXW,*LPOSVERSIONINFOEXW,RTL_OSVERSIONINFOEXW,*PRTL_OSVERSIONINFOEXW;
+                                                                                     ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3116:14: error: nested redefinition of 'enum _EVENT_TYPE'
+ typedef enum _EVENT_TYPE {
+              ^
+winddk.h:3116:14: error: redeclaration of 'enum _EVENT_TYPE'
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:587:14: note: originally defined here
+ typedef enum _EVENT_TYPE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3117:3: error: redeclaration of enumerator 'NotificationEvent'
+   NotificationEvent,
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:588:3: note: previous definition of 'NotificationEvent' was here
+   NotificationEvent,
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3118:3: error: redeclaration of enumerator 'SynchronizationEvent'
+   SynchronizationEvent
+   ^
+In file included from ntddk.h:45:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ntdef.h:589:3: note: previous definition of 'SynchronizationEvent' was here
+   SynchronizationEvent
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3554:14: error: nested redefinition of 'enum _PARTITION_STYLE'
+ typedef enum _PARTITION_STYLE {
+              ^
+winddk.h:3554:14: error: redeclaration of 'enum _PARTITION_STYLE'
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:569:14: note: originally defined here
+ typedef enum _PARTITION_STYLE {
+              ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3555:3: error: redeclaration of enumerator 'PARTITION_STYLE_MBR'
+   PARTITION_STYLE_MBR,
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:570:3: note: previous definition of 'PARTITION_STYLE_MBR' was here
+   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3556:3: error: redeclaration of enumerator 'PARTITION_STYLE_GPT'
+   PARTITION_STYLE_GPT
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:570:23: note: previous definition of 'PARTITION_STYLE_GPT' was here
+   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
+                       ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3559:16: error: redefinition of 'struct _CREATE_DISK_MBR'
+ typedef struct _CREATE_DISK_MBR {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:610:16: note: originally defined here
+ typedef struct _CREATE_DISK_MBR {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3561:3: error: conflicting types for 'CREATE_DISK_MBR'
+ } CREATE_DISK_MBR, *PCREATE_DISK_MBR;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:612:3: note: previous declaration of 'CREATE_DISK_MBR' was here
+ } CREATE_DISK_MBR,*PCREATE_DISK_MBR;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3561:21: error: conflicting types for 'PCREATE_DISK_MBR'
+ } CREATE_DISK_MBR, *PCREATE_DISK_MBR;
+                     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:612:20: note: previous declaration of 'PCREATE_DISK_MBR' was here
+ } CREATE_DISK_MBR,*PCREATE_DISK_MBR;
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3563:16: error: redefinition of 'struct _CREATE_DISK_GPT'
+ typedef struct _CREATE_DISK_GPT {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:605:16: note: originally defined here
+ typedef struct _CREATE_DISK_GPT {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3566:3: error: conflicting types for 'CREATE_DISK_GPT'
+ } CREATE_DISK_GPT, *PCREATE_DISK_GPT;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:608:3: note: previous declaration of 'CREATE_DISK_GPT' was here
+ } CREATE_DISK_GPT,*PCREATE_DISK_GPT;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3566:21: error: conflicting types for 'PCREATE_DISK_GPT'
+ } CREATE_DISK_GPT, *PCREATE_DISK_GPT;
+                     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:608:20: note: previous declaration of 'PCREATE_DISK_GPT' was here
+ } CREATE_DISK_GPT,*PCREATE_DISK_GPT;
+                    ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3568:16: error: redefinition of 'struct _CREATE_DISK'
+ typedef struct _CREATE_DISK {
+                ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:614:16: note: originally defined here
+ typedef struct _CREATE_DISK {
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3574:3: error: conflicting types for 'CREATE_DISK'
+ } CREATE_DISK, *PCREATE_DISK;
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:620:3: note: previous declaration of 'CREATE_DISK' was here
+ } CREATE_DISK,*PCREATE_DISK;
+   ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:3574:17: error: conflicting types for 'PCREATE_DISK'
+ } CREATE_DISK, *PCREATE_DISK;
+                 ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winscard.h:11:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:97,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\winioctl.h:620:16: note: previous declaration of 'PCREATE_DISK' was here
+ } CREATE_DISK,*PCREATE_DISK;
+                ^
+In file included from ntddk.h:76:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winddk.h:7587:6: error: unknown type name 'PKFLOATING_SAVE'
+   IN PKFLOATING_SAVE  FloatSave);
+      ^
+winddk.h:7593:7: error: unknown type name 'PKFLOATING_SAVE'
+   OUT PKFLOATING_SAVE  FloatSave);
+       ^
+winddk.h:8736:6: error: unknown type name 'SECTION_INHERIT'
+   IN SECTION_INHERIT  InheritDisposition,
+      ^
+winddk.h:8751:6: error: unknown type name 'SECTION_INHERIT'
+   IN SECTION_INHERIT  InheritDisposition,
+      ^
+In file included from ntddk.h:85:0,
+                 from ntddser.h:34,
+                 from win3600.h:9,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+winnt4.h:166:1: error: expected ',' or ';' before 'ExInterlockedDecrementLong'
+ ExInterlockedDecrementLong(
+ ^
+winnt4.h:181:1: error: expected ',' or ';' before 'ExInterlockedIncrementLong'
+ ExInterlockedIncrementLong(
+ ^
+In file included from win3600.h:9:0,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+ntddser.h:375:2: error: expected declaration specifiers or '...' before '*' token
+ (*PSERENUM_READPORT)(
+  ^
+ntddser.h:379:2: error: expected declaration specifiers or '...' before '*' token
+ (*PSERENUM_WRITEPORT)(
+  ^
+ntddser.h:391:3: error: unknown type name 'PSERENUM_READPORT'
+   PSERENUM_READPORT  ReadAccessor;
+   ^
+ntddser.h:392:3: error: unknown type name 'PSERENUM_WRITEPORT'
+   PSERENUM_WRITEPORT  WriteAccessor;
+   ^
+win3600.c: In function 'open_weatherstation':
+win3600.c:63:3: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+   DeviceIoControl(ws,IOCTL_SERIAL_SET_QUEUE_SIZE,&queueSize,sizeof(queueSize),NULL,0,&lpBytesReturned,NULL);
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c:92:14: warning: assignment makes integer from pointer without a cast [enabled by default]
+  dcb.XonChar = NULL;
+              ^
+win3600.c:93:16: warning: assignment makes integer from pointer without a cast [enabled by default]
+   dcb.XoffChar = NULL;
+                ^
+win3600.c:94:17: warning: assignment makes integer from pointer without a cast [enabled by default]
+   dcb.ErrorChar = NULL;
+                 ^
+win3600.c:95:15: warning: assignment makes integer from pointer without a cast [enabled by default]
+   dcb.EofChar = NULL;
+               ^
+win3600.c:96:15: warning: assignment makes integer from pointer without a cast [enabled by default]
+   dcb.EvtChar = NULL;
+               ^
+win3600.c:37:9: warning: unused variable 'Events' [-Wunused-variable]
+   DWORD Events;
+         ^
+win3600.c:36:9: warning: unused variable 'EventMask' [-Wunused-variable]
+   DWORD EventMask;
+         ^
+win3600.c:35:9: warning: unused variable 'status' [-Wunused-variable]
+   ULONG status;
+         ^
+win3600.c: In function 'set_DTR':
+win3600.c:192:5: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+     DeviceIoControl(serdevice,IOCTL_SERIAL_SET_DTR,NULL,0,NULL,0,&lpBytesReturned,NULL);
+     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c:196:5: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+     DeviceIoControl(serdevice,IOCTL_SERIAL_CLR_DTR,NULL,0,NULL,0,&lpBytesReturned,NULL);
+     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c: In function 'set_RTS':
+win3600.c:220:5: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+     DeviceIoControl(serdevice,IOCTL_SERIAL_SET_RTS,NULL,0,NULL,0,&lpBytesReturned,NULL);
+     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c:225:5: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+     DeviceIoControl(serdevice,IOCTL_SERIAL_CLR_RTS,NULL,0,NULL,0,&lpBytesReturned,NULL);
+     ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c: In function 'get_DSR':
+win3600.c:245:3: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+   DeviceIoControl(ws,IOCTL_SERIAL_GET_MODEMSTATUS,NULL,0,&status,sizeof(status),&lpBytesReturned,NULL);
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c: In function 'get_CTS':
+win3600.c:274:3: warning: passing argument 7 of 'DeviceIoControl' from incompatible pointer type [enabled by default]
+   DeviceIoControl(ws,IOCTL_SERIAL_GET_MODEMSTATUS,NULL,0,&status,sizeof(status),&lpBytesReturned,NULL);
+   ^
+In file included from c:\win-builds-64\x86_64-w64-mingw32\include\winbase.h:21:0,
+                 from c:\win-builds-64\x86_64-w64-mingw32\include\windows.h:70,
+                 from win3600.h:7,
+                 from rw3600.h:11,
+                 from win3600.c:16:
+c:\win-builds-64\x86_64-w64-mingw32\include\ioapiset.h:22:29: note: expected 'LPDWORD' but argument is of type 'DWORD **'
+   WINBASEAPI WINBOOL WINAPI DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
+                             ^
+win3600.c: In function 'citizen_weather_send':
+win3600.c:542:10: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+          config->citizen_weather_id, VERSION);
+          ^
